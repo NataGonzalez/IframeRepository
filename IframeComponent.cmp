@@ -1,0 +1,12 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <html>
+        <body>
+            <span>
+                <h1>IFRAME
+                </h1></span>
+            <div>
+                <iframe id="iframeId" src="www.salesforce.com" width="500px" height="500px"/> 
+            </div>
+        </body>
+    </html>
+</aura:component>
